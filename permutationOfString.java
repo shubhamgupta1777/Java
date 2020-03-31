@@ -3,7 +3,7 @@ public class solution {
 	
 	public static String[] permutationOfString(String input){
 		// Write your code here
-		if(input.length()==0)
+	if(input.length()==0)
         {
             String output[] = {""};
             return output;
@@ -22,14 +22,13 @@ public class solution {
             }
         }
         return output;
-	}
-    
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        String input = s.nextLine();
-        String output[] = permutationOfString(input);
-        for(int i = 0; i < output.length; i++) {
-            System.out.println(output[i]);
-        }
-    }
+}
+    	public static void main(String[] args) {
+        	Scanner s = new Scanner(System.in);
+		String input = s.nextLine();
+		String output[] = permutationOfString(input);
+		for(int i = 0; i < output.length; i++) {
+		    System.out.println(output[i]);
+		}
+    	}
 }
